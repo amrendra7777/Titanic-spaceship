@@ -27,13 +27,14 @@ to another dimension using classical ML techniques.
 
 ## 📁 Project Structure
 
-├── titanic-env/ # Python virtual environment (not tracked by git)
-├── .gitignore # Files/folders to exclude from git
-├── model.ipynb # Main notebook for modeling
-├── README.md # Project overview (this file)
-├── requirements.txt # Python dependencies
-├── test.csv # Test dataset (from Kaggle)
-└── train.csv # Train dataset (from Kaggle)
+    ├── titanic-env/         # Python virtual environment (excluded via .gitignore)
+    ├── .gitignore           # Specifies files and folders to ignore in version control
+    ├── model.ipynb          # Main Jupyter notebook for model training and evaluation
+    ├── README.md            # Project overview and setup instructions
+    ├── requirements.txt     # Python dependencies for reproducibility
+    ├── train.csv            # Training dataset from Kaggle
+    └── test.csv             # Test dataset from Kaggle
+
 
 ---
 
